@@ -13,8 +13,9 @@ public class Pyramid {
 			
 			for(j=2*(n-i); j>=0; j--) 
 			{ 
-				
-				System.out.print(" "); 
+				if(i != n - 1){
+					System.out.print(" ");
+				}
 			} 
 			
 			
